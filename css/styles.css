@@ -621,6 +621,10 @@ fill: #F4F4FD;
 }
 
 .subscribe-form-input {
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
   width: 264px;
   height: 40px;
 
@@ -635,8 +639,8 @@ fill: #F4F4FD;
 
   transition: border-color var(--anim);
   outline: transparent;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   
-  filter: drop-shadow (0px 4px 4px 0px rgba(0, 0, 0, 0.15));
 }
 
 .subscribe-form-input::placeholder {
@@ -656,7 +660,7 @@ fill: #F4F4FD;
   min-height: 40px;
 
   padding: 8px 24px;
-  gap: 16px;
+ 
 
   border: none;
   border-radius: 4px;
@@ -674,6 +678,7 @@ fill: #F4F4FD;
 
 .subscribe-icon {
   fill: #FFFFFF;
+  margin-left: 16px;
 }
 
 
@@ -893,7 +898,6 @@ fill: #F4F4FD;
 .modal-caption {
   display: block;
   width: 360px;
-  flex-direction: column;
   color: #2E2F42;
   text-align: center;
   font-family: var(--primary-font);
